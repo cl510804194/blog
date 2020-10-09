@@ -51,4 +51,6 @@ docker commit 提交容器副本使之成为一个新的镜像
 1. FROM 基础镜像，当前新镜像是基于哪个镜像
 2. MAINTAINER 镜像维护者的姓名和邮箱地址
 
-##
+## DockerFile
+
+1. 多个CMD只执行最后一条CMD命令，ENTRYPOINT跟CMD一样，会追加
