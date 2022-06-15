@@ -1,7 +1,7 @@
 module.exports = {
   themeConfig: {
     nav: [
-      { text: '博客', link: '/mysql/' } // 内部链接 以docs为根目录
+      { text: "博客", link: "/mysql/" }, // 内部链接 以docs为根目录
       // { text: '博客', link: 'http://obkoro1.com/' }, // 外部链接
       // // 下拉列表
       // {
@@ -17,10 +17,10 @@ module.exports = {
     ],
     // sidebar: ['/accumulate', '/git', '/vue']
     sidebar: [
-      { title: 'Mysql', path: '/mysql/' },
-      { title: 'Jest', path: '/jest/' },
-      { title: '性能优化', path: '/performance/' }
-    ]
+      { title: "Mysql", path: "/mysql/" },
+      // { title: 'Jest', path: '/jest/' },
+      // { title: '性能优化', path: '/performance/' }
+    ],
     // sidebar: {
     //   // docs文件夹下面的accumulate文件夹 文档中md文件 书写的位置(命名随意)
     //   '/accumulate/': [
@@ -40,5 +40,5 @@ module.exports = {
     //   //   }
     //   // ]
     // }
-  }
-}
+  },
+};
